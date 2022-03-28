@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Memory:"
+free -h
+printf "\nDisk usage:\n"
+df -h
+printf "\nUptime:\n"
+uptime
