@@ -1,0 +1,2 @@
+#!/bin/bash
+xfreerdp -u m.jarnikov -p ###### -g 1600x1024 87.229.225.58

@@ -1,4 +1,13 @@
 #!/bin/bash
 
+echo "Updating system..."
 sudo apt update -yy
 sudo apt dist-upgrade -yy
+
+echo "Cleaning up..."
+sudo apt-get autoremove -yy
+sudo apt-get autoclean
+
+echo "================="
+echo "Update Complete!"
+echo "================="
